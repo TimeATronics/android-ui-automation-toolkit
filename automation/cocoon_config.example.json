@@ -1,0 +1,37 @@
+{
+  "open": {
+    "edit_app_key": 53,
+    "enter_key": 23,
+    "settle_seconds": 0.8
+  },
+  "action_x": 1152,
+  "fields": {
+    "title": {
+      "y": 273
+    },
+    "publisher": {
+      "y": 400
+    },
+    "release_date": {
+      "y": 500
+    },
+    "description": {
+      "y": 602
+    }
+  },
+  "paste": {
+    "x": 104,
+    "y": 500
+  },
+  "confirm": {
+    "x": 1196,
+    "y": 72
+  },
+  "save": {
+    "x": 1100,
+    "y": 122
+  },
+  "field_settle_seconds": 0.55,
+  "save_settle_seconds": 1.0,
+  "expected_package": "rip.moth.cocoonshell"
+}

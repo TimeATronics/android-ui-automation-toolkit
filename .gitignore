@@ -1,0 +1,25 @@
+# Android build output
+.gradle/
+build/
+local.properties
+*.apk
+*.aab
+*.idsig
+
+# Editors / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local calibration / screenshots
+*.png
+*.jpg
+*.jpeg

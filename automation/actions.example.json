@@ -1,0 +1,24 @@
+[
+  {
+    "type": "screenshot",
+    "path": "screen-before.png"
+  },
+  {
+    "type": "wait",
+    "seconds": 0.5
+  },
+  {
+    "type": "long_press",
+    "x": 640,
+    "y": 684,
+    "ms": 1200
+  },
+  {
+    "type": "keyevent",
+    "key": 53
+  },
+  {
+    "type": "screenshot",
+    "path": "screen-after.png"
+  }
+]
