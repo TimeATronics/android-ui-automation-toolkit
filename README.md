@@ -71,7 +71,7 @@ the `b64` extra, write the clipboard, finish.
 Linux/macOS:
 
 ```bash
-B64="$(printf %s 'Motion Twin' | base64 -w0)"
+B64="$(printf %s 'Motion Twin' | base64 | tr -d '\n')"
 adb shell am start -W -n com.ayaneo.cliphelper/.MainActivity --es b64 "$B64"
 ```
 
